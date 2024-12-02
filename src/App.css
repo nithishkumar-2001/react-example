@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+.image{
+  width: 300px;
+  height: 300px;
+  margin-top: 170px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bgcolor{
+  background-color: #1ed497
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fonts{
+  font-size: 30px !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.underline{
+  border-bottom: 3px solid white !important;
+  width: 100px;
+  margin-bottom: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.underline1{
+  border-bottom: 3px solid black !important;
+  width: 100px;
+  margin-bottom: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fontSize{
+  font-size: 16px;
+  font-weight: 700;
+}
+.lines{
+  border: none;
+  border-bottom: 2px solid gray;
+  outline: none;
+}
+.circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.circle:hover{
+background-color: white;
+color: black;
+}
+.active,
+.back:hover{
+background-color: #1ed497;
+border-radius: 5px;
+}
+.lines{
+  width: 100%;
+}
+.rotate{
+  transition: all 1s ease;
+}
+.rotate:hover{
+  transform: rotate(360deg);
+}
+.zoom{
+  transition: all 1s ease;
+}
+.zoom:hover{
+  transform: scale(1.1) !important;
 }
